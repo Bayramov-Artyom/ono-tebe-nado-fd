@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 94px 50px 96px; 
+    padding: 94px 50px 96px;
 }
 
 .header-menu {
@@ -64,7 +64,7 @@
 
 .underline-text {
     text-decoration: none;
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
 }
 
 .header__logo-image {
@@ -96,7 +96,7 @@
 
 .cover-description {
     position: relative;
-    display: flex; 
+    display: flex;
     word-spacing: 19px;
     align-items: center;
     justify-content: space-between;
@@ -253,7 +253,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #000000;
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
     padding-top: 32px;
     margin-left: 65px;
 }
@@ -316,7 +316,6 @@
 .footer-address {
     display: flex;
     flex-direction: column;
-    justify-self: left;
     font-family: 'Raleway', sans-serif ;
     font-weight: 400;
     font-size: 18px;
@@ -326,7 +325,7 @@
     margin-right: 50px;
     padding-top: 400px;
     padding-left: 50px;
-    justify-self: start; 
+    justify-self: start;
 }
 
 .footer__menu-list {
@@ -344,7 +343,7 @@
 }
 
 .footer__menu-link {
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
 }
 
 .footer__social-list {
