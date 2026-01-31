@@ -17,18 +17,18 @@
       <nav class="header-menu">
         <ul class="header-links-list">
           <li class="header__links-list-item_no-bullit">
-            <a href="#" class="header__link_active">главная</a>
+            <a href="#main" class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="header__link">посмотреть лоты</a>
+            <a href="#lots" class="header__link">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="header__link">об аукционе</a>
+            <a href="#about" class="header__link">об аукционе</a>
           </li>
         </ul>
       </nav>
       <div class="header__logo">
-        <a>
+        <a href="#">
           <img src="images/logo-black.svg" class="header__logo-image" alt="Логотип сайта">
         </a>
       </div>
@@ -45,7 +45,7 @@
     </div>
   </header>
   <main>
-    <section class="cover">
+    <section class="cover" id="main">
       <div class="overlay"></div>
       <h1 class="cover-title">
         <span class="aligned-text  aligned-text_left">ОНО</span>
@@ -57,13 +57,13 @@
         <button class="bet-button">Сделать ставку</button>
       </div>
     </section>
-    <section class="lots">
+    <section class="lots" id="lots">
       <h2 class="lots__heading">ЛОТЫ</h2>
       <ul class="lots__card-list">
         <li class="lots__card-list-item">
-          <a class="card-link">
+          <a class="card-link" href="#">
             <article class="card card_type_film">
-              <div class="card__overlay"></div>
+              <div class="overlay"></div>
               <div class="card-content">
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
@@ -73,9 +73,9 @@
           </a>
         </li>
         <li class="lots__card-list-item">
-          <a class="card-link">
+          <a class="card-link" href="#">
             <article class="card card_type_book">
-              <div class="card__overlay"></div>
+              <div class="overlay"></div>
               <div class="card-content">
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
@@ -89,9 +89,9 @@
           </a>
         </li>
         <li class="lots__card-list-item">
-          <a class="card-link">
+          <a class="card-link" href="#">
             <article class="card card_type_picture">
-              <div class="card__overlay"></div>
+              <div class="overlay"></div>
               <div class="card-content">
                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
@@ -104,16 +104,16 @@
           </a>
         </li>
       </ul>
-      <a class="lots__look-more-link"><span class="link-text">посмотреть больше</span></a>
+      <a class="lots__look-more-link" href="#">посмотреть больше</a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="about__column">
         <div class="about__logo">
           <img src="/images/logo-white.svg" class="about__logo-image" alt="Логотип проекта">
         </div>
       </div>
       <div class="about__column">
-        <h3 class="about__title">ОБ АУКЦИОНЕ</h3>
+        <h2 class="about__title">ОБ АУКЦИОНЕ</h2>
         <div class="about__description">
           <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
             Наши лоты вообще не должны были попасть ни на один аукцион.
@@ -143,26 +143,26 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active">главная</a>
+            <a class="footer__menu-link_active" href="#main">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link">посмотреть лоты</a>
+            <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link">об аукционне</a>
+            <a class="footer__menu-link" href="#about">об аукционне</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link"><img src="/images/yt.svg" class="footer__social-icon" alt="Ссылка ютуб"></a>
+          <a class="footer__social-link" href="https://www.youtube.com/"><img src="/images/yt.svg" class="footer__social-icon" alt="Ссылка ютуб"></a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link"><img src="/images/vk.svg" class="footer__social-icon"
+          <a class="footer__social-link" href="https://vk.com/feed"><img src="/images/vk.svg" class="footer__social-icon"
               alt="Ссылка вконтакте"></a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link"><img src="/images/pinterest.svg" class="footer__social-icon"
+          <a class="footer__social-link" href="https://ru.pinterest.com/ideas/"><img src="/images/pinterest.svg" class="footer__social-icon"
               alt="Ссылка пинтерест"></a>
         </li>
       </ul>
